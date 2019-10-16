@@ -12,7 +12,7 @@ body {
   height: 100%;
   color:#333;
   background: #fff;
-  font-family: 'Open Sans' , sans-serif ;
+  font-family: 'Open Sans' , sans-serif  !important;
   font-size: 10pt;
   line-height:135%;
 
@@ -39,19 +39,23 @@ a:hover {
     height:35px;
     z-index: 4;
     color: white;
+
 }
 
 #headerInner {
     position:relative;
-    border:0px solid #333;
     background: #5692c3;
-    margin:0 auto;
-    margin-top:0px;
- }
+    margin: 0px;
+    border: 0px solid #5692c3;
+}
+
+#headerInner nav {
+    margin-left: auto;
+}
 
 .topMenu {
     width:1200px;
-    height:30px;
+    height:25px;
     position:relative;
 	left:0px;
 	top:0px;
@@ -59,23 +63,23 @@ a:hover {
 
 .topMenu ul li {
 	float:right;
-    height: 30px;
+    height: 25px;
 }
 
 .topMenu ul {
     padding-left:0px;
+    margin: 0px;
 }
 
 .topMenu ul li{
-    margin-top:0px;
     font-weight:100;
     border-right:0px solid #adadad;
 	display:block;
 	color:#fff;
 	text-decoration:none;
-	line-height:20px;
-	font-size:10pt;
-	padding:10px 100px 10px 100px;
+	line-height:25px;
+	font-size:9pt;
+	padding-right: 220px;
 }
 
 
