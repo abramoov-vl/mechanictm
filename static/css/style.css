@@ -33,20 +33,20 @@ a:hover {
 }
 
 
-/* Нав Бар */
+/* ХИДЕР */
 .header{
     width:100%;
-    height:35px;
+    height:82px;
     z-index: 4;
     color: white;
+    background: #082238;
 
 }
-
+/*Верхнее меню*/
 #headerInner {
     position:relative;
-    background: #5692c3;
+    background: #135185;
     margin: 0px;
-    border: 0px solid #5692c3;
 }
 
 #headerInner nav {
@@ -54,7 +54,6 @@ a:hover {
 }
 
 .topMenu {
-    width:1200px;
     height:25px;
     position:relative;
 	left:0px;
@@ -62,72 +61,93 @@ a:hover {
 }
 
 .topMenu ul li {
-	float:right;
-    height: 25px;
+    font-weight: 100;
+    border-right: 0px solid #adadad;
+    /*display:block;*/
+    color: #fff;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 9pt;
+    float: right;
+    height: 30px;
+    /*padding-right: 150px;*/
 }
-
 .topMenu ul {
-    padding-left:0px;
-    margin: 0px;
+    margin:  0px;
 }
 
-.topMenu ul li{
-    font-weight:100;
-    border-right:0px solid #adadad;
-	display:block;
-	color:#fff;
-	text-decoration:none;
-	line-height:25px;
-	font-size:9pt;
-	padding-right: 220px;
+.topMenuTime {
+    z-index: 1;
+    position: absolute;
+    right: 20px;
 }
 
+.topMenuPhone {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
 
-
-
-
-
-
-/* .top-nav {
-    height:30px;
-    background-color: #5692c3;
-    color: white;
-    font-size: 10pt;
-    padding: 5px;
+.topMenuAddress {
+    z-index: 1;
+    position: absolute;
+    left: 20px;
 }
 
 
+/*Конец верхнего меню*/
 
-.main-nav {
-    height: 55px;
-    background-color: #1a71b8;
-    color: white;
-    font-size: 13pt;
-    font-family: 'Open Sans' , sans-serif ;
+/*Навигационное меню*/
+
+#headernav {
+    position: relative;
+    background: #082238;
+    width: 1200px;
+    height: 57px;
+    margin: 0px auto;
 }
 
-.main-nav ul {
-    margin-left: 0px;
+.menuRight {
+    height: 57px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.menuRight ul li {
+    /*border-left: 1px solid #135185;*/
+    float: left;
+    height: 57px;
+}
+
+.menuRight ul {
     padding-left: 0px;
 }
 
-.main-nav li {
-    background-color: #1a71b8;
-    color: #ffffff;
-    list-style-type: none;
-    height: 55px;
-}
-
-.main-nav a{
+.menuRight ul li a{
+    margin-top: 0px;
+    font-weight: 100;
+    display: block;
+    color: white;
     text-decoration: none;
-    color: #ffffff;
+    line-height: 20px;
+    font-size: 18px;
+    padding:  16px 20px 21px 20px;
 }
 
-.main-nav li:hover > a,
-.main-nav li.current > a {
-	background: #135185;
-	color: #fff;
-    text-decoration: none;
+.menuRight ul li a:hover{
+    background: #135185;
+    color: white;
 }
 
-*/
+/*Конец навигационного меню*/
+
+/*Конец хидера*/
+
+/*Основной контент*/
+
+/*Первый блок*/
+
+
+/*Конец первого блока*/

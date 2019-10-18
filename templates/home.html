@@ -20,55 +20,41 @@
 {#    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic" rel="stylesheet">#}
 </head>
 <body>
-<header>
-    <div id="headerInner">
-        <nav class="topMenu">
-                <ul>
-                    <li>График работы: Ежедневно с 9:00 до 19:00</li>
-                    <li>Телефон: +7(999)999-99-99</li>
-                    <li>info@gmail.com</li>
+<!-- Хидер -->
+<header class="header">
 
-                </ul>
+    <!-- Верхнее меню -->
+    <nav id="headerInner" class="topMenu">
+            <ul>
+                <li class="topMenuTime">График работы: Ежедневно с 9:00 до 19:00</li>
+                <li class="topMenuPhone">Телефон: +7(999)999-99-99</li>
+                <li class="topMenuAddress">Адрес: Производственная ул. д.6 стр.41</li>
+            </ul>
+    </nav>
+    <!-- Конец верхнего меню -->
+
+    <!-- Навигационное меню -->
+    <div id="headernav">
+        <!-- Правая часть -->
+        <nav class="menuRight">
+            <ul>
+                <li><a href="#">Главная</a> </li>
+                <li><a href="#">Услуги</a> </li>
+                <li><a href="#">Акции</a> </li>
+                <li><a href="#">О нас</a> </li>
+                <li><a href="#">Контакты</a> </li>
+            </ul>
         </nav>
+        <!-- Конец правой части -->
+
     </div>
-            <!-- <div class="main-nav container-fluid">
-                <ul>
-                    <div class="col-lg-2">
-
-                    </div>
-                    <div class="col-lg-1">
-                        <li>
-                            <a href="#">Главная</a>
-                        </li>
-                    </div>
-                    <div class="col-lg-1">
-                        <li>
-                            <a href="#">Услуги</a>
-                        </li>
-                    </div>
-                    <div class="col-lg-1">
-                        <li>Акции</li>
-                    </div>
-                    <div class="col-lg-1">
-                        <li>О нас</li>
-                    </div>
-                    <div class="col-lg-1">
-                        <li>Контакты</li>
-                    </div>
-                    <div class="col-lg-3">
-
-                    </div>
-                    <div class="col-lg-2">
-                        <li>Личный кабинет</li>
-                    </div>
-                </ul>
-            </div>
-        </nav>
-    </div> -->
-
+    <!-- Конец навигационного меню -->
 </header>
+<!-- Конец хидера -->
+
+
 <div class="container-fluid" style="padding: 0px">
-{#    <img src="{% static 'images/bmw-main.jpg' %}" style="height:900px">#}
+    <img src="{% static 'images/bmw-main.jpg' %}" style="height:900px">
     <div class="info-main">
 
     </div>
