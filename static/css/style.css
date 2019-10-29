@@ -213,6 +213,11 @@ a:hover {
 /*Конец первого блока*/
 
 /*Начало второго блока*/
+.whyUs {
+    padding-bottom: 30px;
+    height: 450px;
+}
+
 .whyUs h3 {
     text-align: center;
 }
@@ -220,12 +225,14 @@ a:hover {
 .whyUs ul {
     margin-top: 30px;
     position: absolute;
+    top: 50px;
     left: 45%;
     transform: translateX(-50%);
 }
 
 .whyUs ul li {
     line-height: 55px;
+    font-size: 18px !important;
 }
 
 .round {
@@ -241,5 +248,12 @@ a:hover {
     weight: 50px;
 }
 
-
 /*Конец второго блока*/
+
+/*Начало третьего блока */
+
+.specialSentence img {
+    width: 100%;
+}
+
+/*Конец третьего блока */
