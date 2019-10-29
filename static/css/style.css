@@ -211,3 +211,35 @@ a:hover {
 }
 
 /*Конец первого блока*/
+
+/*Начало второго блока*/
+.whyUs h3 {
+    text-align: center;
+}
+
+.whyUs ul {
+    margin-top: 30px;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+}
+
+.whyUs ul li {
+    line-height: 55px;
+}
+
+.round {
+    background: #192a38;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.round img {
+    height: 50px;
+    weight: 50px;
+}
+
+
+/*Конец второго блока*/
