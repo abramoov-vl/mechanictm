@@ -198,7 +198,7 @@ a:hover {
     top: 0px;
     height: 100%;
     width: 36px;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
 }
 
 .firstService img {
@@ -215,7 +215,7 @@ a:hover {
 /*Начало второго блока*/
 .whyUs {
     padding-bottom: 30px;
-    height: 450px;
+    height: 400px;
 }
 
 .whyUs h3 {
@@ -242,7 +242,6 @@ a:hover {
     margin: 10px;
     border-radius: 50px;
 }
-
 .round img {
     height: 50px;
     weight: 50px;
@@ -251,9 +250,101 @@ a:hover {
 /*Конец второго блока*/
 
 /*Начало третьего блока */
+.specialSentence {
+    position: relative;
+}
 
 .specialSentence img {
     width: 100%;
 }
 
+.nameBlock3 {
+    position: absolute;
+    background: #192a38;
+    font-size: 30px;
+    color: #192a38;
+    top: 0px;
+    left: -70px;
+    padding: 5px 50px 5px 10px;
+    transform: skew(-70deg);
+    opacity: 0.7;
+}
+
+#NameBlock3 {
+    position: absolute;
+    right: 35px;
+    color: white;
+    transform: skew(70deg);
+    width: 80%;
+    font-size: 26px;
+    opacity: 1;
+}
+
+.sentenceBlock3 {
+    position: absolute;
+    top: 90px;
+    left:10%;
+    background: #192a38;
+    color: white;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    opacity: 0.7;
+    padding: 20px;
+    font-size: 30px;
+}
+
 /*Конец третьего блока */
+
+/*Начало 4го блока */
+.whereIs {
+    padding-bottom: 30px;
+    background:white;
+}
+
+.whereIs h3 {
+    text-align: center;
+}
+
+.whereIs h4 {
+    text-align: center;
+}
+/*Конец 4го блока*/
+
+
+/* Футер */
+.footer {
+  margin-top: 0px;
+}
+.footerbar {
+  padding-top: 20px;
+  background-color: #082238;
+  position: relative;
+  padding-bottom: 30px;
+}
+.footertext h4{
+  font-size: 15px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: whitesmoke;
+}
+.footertext h5 {
+  font-size: 12px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: whitesmoke;
+}
+
+.footertext a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.footertext a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+.social img {
+    height: 20px;
+}
+/* Конец Футера */
