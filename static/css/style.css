@@ -296,7 +296,31 @@ a:hover {
 
 /*Конец третьего блока */
 
+
 /*Начало 4го блока */
+.aboutUs {
+    height: 500px;
+}
+
+#LineAboutUs {
+    margin: 0px 20px 0px 20px;
+    width: 100%;
+    height: 11px;
+}
+
+#ContentAboutUs {
+    margin: 20px 10px 20px 20px;
+    height: 440px;
+}
+
+.aboutUs h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+/*Конец 4го блока */
+
+
+/*Начало 5го блока */
 .whereIs {
     padding-bottom: 30px;
     background:white;
@@ -309,38 +333,55 @@ a:hover {
 .whereIs h4 {
     text-align: center;
 }
-/*Конец 4го блока*/
+/*Конец 5го блока*/
+
+
+/* Начало 6го блока */
+
+
+.request img {
+    width: 100%;
+}
+
+.requestButton {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+/* Конец 6го блока */
 
 
 /* Футер */
 .footer {
-  margin-top: 0px;
+    margin-top: 0px;
 }
 .footerbar {
-  padding-top: 20px;
-  background-color: #082238;
-  position: relative;
-  padding-bottom: 30px;
+    padding-top: 20px;
+    background-color: #082238;
+    position: relative;
+    padding-bottom: 30px;
 }
 .footertext h4{
-  font-size: 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: whitesmoke;
 }
 .footertext h5 {
-  font-size: 12px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: whitesmoke;
+    font-size: 12px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+    line-height: 16px;
 }
 
 .footertext a {
-  color: whitesmoke;
-  text-decoration: none;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 .footertext a:hover {
-  color: white;
-  text-decoration: underline;
+    color: white;
+    text-decoration: underline;
 }
 
 
